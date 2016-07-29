@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <!--<Spinner
+        android:id="@+id/skill_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/skill_name"
+        android:prompt="@string/skill_prompt"/>
+
+    <Spinner
+        android:id="@+id/rating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/rating"
+        android:prompt="@string/rating_prompt"/>
+
+    <Spinner
+        android:id="@+id/experiance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/experiance"
+        android:prompt="@string/experiance_prompt"/>-->
+    <AutoCompleteTextView
+        android:id="@+id/skill_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Select Skill" />
+
+    <AutoCompleteTextView
+        android:id="@+id/rating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Select rating" />
+
+    <AutoCompleteTextView
+        android:id="@+id/experiance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Select experiance" />
+
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lblBtnAdd" />
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnAdd" />
+
+    <TextView
+        android:id="@android:id/empty"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnAdd"
+        android:gravity="center_horizontal"
+        android:text="@string/txtEmpty" />
+
+</LinearLayout>

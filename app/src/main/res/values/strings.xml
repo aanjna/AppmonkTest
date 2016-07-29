@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">AppmonkTest</string>
+    <string name="hintTxtItem">Enter an item here ...</string>
+    <string name="lblBtnAdd">Add Item</string>
+    <string name="txtEmpty">List is empty</string>
+    <string name="skill_prompt">Choose a skill</string>
+
+    <string-array name="skill_name">
+        <item>Select skill</item>
+        <item>PHP</item>
+        <item>SQL</item>
+        <item>HTML5</item>
+        <item>Java</item>
+        <item>PYTHON</item>
+        <item>C++</item>
+    </string-array>
+    <string name="experiance_prompt">Choose a skill</string>
+    <string-array name="experiance">
+        <item>Select experiance</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string name="rating_prompt">Choose a skill</string>
+    <string-array name="rating">
+        <item>Select rating</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+</resources>
