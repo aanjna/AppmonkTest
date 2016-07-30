@@ -22,11 +22,19 @@
         android:layout_height="wrap_content"
         android:entries="@array/experiance"
         android:prompt="@string/experiance_prompt"/>-->
+    <Spinner
+        android:id="@+id/sk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/rating"
+        android:prompt="@string/rating_prompt"/>
     <AutoCompleteTextView
         android:id="@+id/skill_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:entries="@array/skill_name"
+        android:prompt="@string/skill_prompt"
         android:hint="Select Skill" />
 
     <AutoCompleteTextView
@@ -34,6 +42,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:entries="@array/rating"
+        android:prompt="@string/rating_prompt"
         android:hint="Select rating" />
 
     <AutoCompleteTextView
@@ -41,6 +51,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:entries="@array/experiance"
+        android:prompt="@string/experiance_prompt"
         android:hint="Select experiance" />
 
 

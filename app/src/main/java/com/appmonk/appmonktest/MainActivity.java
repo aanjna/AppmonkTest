@@ -21,7 +21,7 @@ public class MainActivity extends ListActivity {
     Button add, submit;
     String skill_name[] = {"PHP","JAVA","HTML5","ANDROID","SQL"};
     String rating[] = {"1","2","3","4","5"};
-
+    String exp[] = {"1","2","3","4","5"};
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -50,7 +50,6 @@ public class MainActivity extends ListActivity {
                 adapter.notifyDataSetChanged();
             }
         };
-
         add.setOnClickListener(listener);
         setListAdapter(adapter);
     }
